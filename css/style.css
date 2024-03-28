@@ -1,0 +1,88 @@
+/*Desktop styling*/
+table.csv-converter.desktop {
+    width: 100%; 
+}
+table.csv-converter.desktop a {
+    color: #0099ff;
+}
+table.csv-converter.desktop th, td {
+    padding: 5px;
+    text-align: left;
+    background: #fff;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #999;
+}
+table.csv-converter.desktop th, 
+table.csv-converter.desktop td {
+    font-size: 16px;
+}
+table.csv-converter.desktop th.name, 
+table.csv-converter.desktop td.name {
+    max-width: 300px;
+}
+table.csv-converter.desktop th {
+    vertical-align: top;
+}
+table.csv-converter.desktop .group td{
+    font-weight: bold;
+    background: #888;
+    color: #fff;
+    border-bottom: 1px solid #000;
+}
+table.csv-converter.desktop .group td span,
+div.csv-converter.mobile h3 span {
+    font-weight: 400;
+}
+table.csv-converter.desktop .companies.odd td {
+    background-color: #efefef;
+}
+table.csv-converter.desktop .no-border-bottom td {
+    border-bottom: none;
+}
+table.csv-converter .hide {
+    display: none;
+}
+
+/*Mobile styling*/
+div.csv-converter.mobile {
+    width: 100%;
+    max-width: 991px;
+    display: none;
+}
+div.csv-converter.mobile h3 {
+    display: none;
+    background-color: #888;
+    color: #fff;
+    font-size: 1.1em;
+    border-bottom: none;
+    padding: 5px 10px;
+    margin: 0px 0px 20px 0px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    padding-right: 30px;
+}
+div.csv-converter.mobile table {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+div.csv-converter.mobile table th,
+div.csv-converter.mobile table td {
+    width: 50%;
+    padding: 5px 10px;
+    background-color: #f8f8f8;
+}
+div.csv-converter.mobile table th {
+    border-bottom: 1px solid #999;
+}
+div.csv-converter.mobile table tr:last-child th,
+div.csv-converter.mobile table tr:last-child td {
+    border-bottom: none;
+}
+div.csv-converter.mobile table tr.odd th,
+div.csv-converter.mobile table tr.odd td {
+    background-color: #f0f0f0;
+}
