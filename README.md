@@ -14,9 +14,9 @@ This section describes how to install the plugin and get it working.
 
 Attributes:
 ```
-**class**:  Adds a class to the table element.
-**url**:    The https file path of where the .csv file is located.
-**header**: If true the first line of data is formatted as titles, otherwise the standard formatting is used.
-**group**:  If true the second line of data is formatted as group elements, otherwise the standard formatting is used.
+class:  Adds a class to the table element.
+url:    The https file path of where the .csv file is located.
+header: If true the first line of data is formatted as titles, otherwise the standard formatting is used.
+group:  If true the second line of data is formatted as group elements, otherwise the standard formatting is used.
 ```
 You should now be all set!
