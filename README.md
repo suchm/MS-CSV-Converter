@@ -13,9 +13,9 @@ This section describes how to install the plugin and get it working.
 `[csv_converter class="{class_name}" url="{url}" header="true" group="true"]`
 
 Attributes:
-`class:  Adds a class to the table element.
+class:  Adds a class to the table element.
 url:    The https file path of where the .csv file is located.
 header: If true if formats the titles of the table, otherwise they will add same format as theother data elements.
-group:  If true it will format the group elements in the table.`
+group:  If true it will format the group elements in the table.
 
 You should now be all set!
